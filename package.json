@@ -1,0 +1,19 @@
+{
+  "name": "grandy-back",
+  "version": "1.0.0",
+  "description": "This is Back-End for my project calls Grandy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlev322/Grandy-Back.git"
+  },
+  "author": "vlev322",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlev322/Grandy-Back/issues"
+  },
+  "homepage": "https://github.com/vlev322/Grandy-Back#readme"
+}
