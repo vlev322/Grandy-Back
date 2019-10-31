@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>node&mongo</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <h1>List users</h1>
+  <form name="userForm">
+    <input type="hidden" name="id" value="0">
+    <div>
+      <label for="name">Name:</label>
+      <input placeholder="Enter name.." type="text" name="name">
+    </div>
+    <div>
+      <label for="age">Age:</label>
+      <input placeholder="Enter age.." type="text" name="name">
+    </div>
+    <div>
+      <button type="submit">Save</button>
+      <a id="reset">Reset</a>
+    </div>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+
+    </tbody>
+  </table>
+  <!-- <script src="js/index.js"></script> -->
+  <script src="js/api.js"></script>
+</body>
+
+</html>
